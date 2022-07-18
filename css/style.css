@@ -552,6 +552,9 @@ body {
   margin-top: 50px;
   flex-basis: calc((60%-37px) / 3);
 }
+.images-portfolio {
+  width: 370px;
+}
 
 .images-list-portfolio :not(:nth-child(3n)) {
   margin-right: 30px;
@@ -576,10 +579,10 @@ body {
 }
 .border-portfolio-taitle {
   padding-bottom: 4px;
-  padding-left: 24px;
+  padding-left: 22px;
 }
 .border-sabsection-portfolio {
-  padding-left: 24px;
+  padding-left: 22px;
 }
 .title-portfolio {
   font-weight: 700;
