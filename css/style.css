@@ -15,6 +15,9 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
+ul {
+  padding-inline-start: 0;
+}
 img {
   display: block;
 }
@@ -103,8 +106,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;*/
+  /* padding-bottom: 32px;*/
 }
 .site-nav:hover,
 :focus {
@@ -212,7 +215,7 @@ body {
 .description-conteiner {
   color: #e5e5e5;
   padding-top: 95px;
-  padding-bottom: 95px;
+  /* padding-bottom: 95px;*/
 }
 .card-set {
   display: flex;
@@ -248,7 +251,7 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
@@ -264,8 +267,8 @@ body {
 }
 .images {
   display: flex;
-  flex-basis: calc((60%-37px) / 3);
-  margin-bottom: 94px;
+  flex-basis: calc((100%-60px) / 3);
+  /*margin-bottom: 94px;*/
 }
 .images:not(:nth-child(3n)) {
   margin-right: 30px;
@@ -312,9 +315,10 @@ body {
   flex-wrap: wrap;
 }
 .conteiner-team {
-  flex-basis: calc((90%-27px) / 4);
+  /*flex-basis: calc((100%-90px) / 4);*/
+  gap: 30px;
   margin-top: 50px;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px;*/
 }
 .conteiner-team:not(:nth-child(4n)) {
   margin-right: 30px;
@@ -331,7 +335,10 @@ body {
 }
 
 /*===================================LOGO====================================*/
-
+.footer-style {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -340,7 +347,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
-  margin-top: 60px;
+
   margin-bottom: 20px;
 }
 .logo .multicolortext {
@@ -348,7 +355,7 @@ body {
 }
 
 /*==================================== ADDRESS======================================*/
-.conteiner-address {
+.conteiner-address-style {
   background-color: #2f303a;
 }
 .address-info {
@@ -376,7 +383,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 60px;
 }
 
 /* ==============================PORTFOLIO========================================*/
@@ -402,8 +408,6 @@ body {
 /*================================HEADER PORTFOLIO=======================================
 ====================назви класів, як в сайт нав на 1 сторінці=======================*/
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   background-color: #ffffff;
 }
 .border-header {
@@ -553,24 +557,15 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
+  align-content: center;
+  gap: 30px;
 }
+/*.img-card {
+  gap: 30px;
+  margin-top: 30px;
+}*/
 
-.images-list-portfolio :not(:nth-child(3n)) {
-  margin-right: 30px;
-}
-
-.img-card:(:nth-last-child(-n+3)) {
-  margin-bottom: 94px;
-}
-.img-card {
-  flex-basis: calc((100%-60px) / 3);
-}
-
-.conteiner-color {
-  background-color: #ffffff;
-}
 .border-portfolio-img {
-  border: 1px;
   border-top: none;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -587,6 +582,40 @@ body {
 .border-sabsection-portfolio {
   padding-left: 22px;
 }
+
+/*.img-card:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+/* Не можу зрозуміти, чому лише таким чином нормально виставляє картинки! ЩО ЦЕ ТАКЕ?! Я в шоці*/
+/*.images-list-portfolio :not(:nth-child(3n)) {
+  img-card {
+    flex-basis: calc ((100%-60px) / 3);
+  }
+}*/
+/*=== З таким оформленням кнопки не працює*/
+/* .conteiner-color {
+  background-color: #ffffff;
+}*/
+/*.border-portfolio-img {
+  border-top: none;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #ffffff;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.border-portfolio-taitle {
+  padding-bottom: 4px;
+   padding-left: 22px;
+
+.border-sabsection-portfolio {
+  padding-left: 22px;
+}*/
 .title-portfolio {
   font-weight: 700;
   font-size: 18px;
@@ -614,7 +643,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
-  margin-top: 60px;
+
   margin-bottom: 20px;
 }
 .logo .multicolortext {
