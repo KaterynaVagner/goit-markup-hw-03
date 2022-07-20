@@ -339,6 +339,11 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.conteiner-address-style {
+  background-color: #2f303a;
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -355,9 +360,7 @@ body {
 }
 
 /*==================================== ADDRESS======================================*/
-.conteiner-address-style {
-  background-color: #2f303a;
-}
+
 .address-info {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -571,16 +574,18 @@ body {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   background-color: #ffffff;
+  padding-right: 24px;
+  padding-left: 24px;
 
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .border-portfolio-taitle {
-  padding-bottom: 4px;
-  padding-left: 22px;
+  margin-bottom: 4px;
+  /*padding-left: 22px;*/
 }
 .border-sabsection-portfolio {
-  padding-left: 22px;
+  /*padding-left: 22px;*/
 }
 
 /*.img-card:not(:nth-child(3n)) {
@@ -652,7 +657,7 @@ body {
 
 /*==============================ADDRES=============================================
 ==============================аналогічний головній сторінці========================*/
-.conteiner-address {
+.conteiner-address-style {
   background-color: #2f303a;
 }
 .address-info {
