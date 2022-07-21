@@ -1,6 +1,7 @@
 :root {
   --accent-color: #2196f3;
 }
+
 h1,
 h2,
 h3,
@@ -130,8 +131,8 @@ body {
 /*=================================EMAIL============================================*/
 .menu-contact {
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /*padding-top: 32px;
+  padding-bottom: 32px;*/
 }
 
 .auth-nav-email {
@@ -255,6 +256,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
+  margin-top: 94px;
   margin-bottom: 50px;
 }
 .next-hero-tittle {
@@ -275,7 +277,7 @@ body {
 }
 /*================================TEAM=============================================== */
 
-.team {
+.team-style {
   background-color: #f5f4fa;
 }
 
@@ -291,6 +293,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
+  margin-bottom: 50px;
 }
 .name-team {
   font-family: Roboto, sans-serif;
@@ -317,7 +320,7 @@ body {
 .conteiner-team {
   /*flex-basis: calc((100%-90px) / 4);*/
   gap: 30px;
-  margin-top: 50px;
+
   /* margin-bottom: 94px;*/
 }
 .conteiner-team:not(:nth-child(4n)) {
@@ -352,7 +355,9 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
+}
 
+.logo-margin {
   margin-bottom: 20px;
 }
 .logo .multicolortext {
@@ -368,7 +373,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 1);
-  margin-bottom: 9px;
 }
 .email-info {
   font-family: Roboto, sans-serif;
@@ -377,8 +381,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 9px;
 }
+.emeil-margin {
+  margin-top: 9px;
+}
+
 .phone-info {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -386,6 +393,10 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.phone-margin {
+  margin-top: 9px;
 }
 
 /* ==============================PORTFOLIO========================================*/
@@ -648,9 +659,8 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
-
-  margin-bottom: 20px;
 }
+
 .logo .multicolortext {
   color: var(--accent-color);
 }
@@ -665,7 +675,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-bottom: 9px;
+
   color: rgba(255, 255, 255, 1);
 }
 .email-info {
@@ -673,7 +683,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-bottom: 9px;
+
   color: rgba(255, 255, 255, 0.6);
 }
 .phone-info {
